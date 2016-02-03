@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Company code:</string>
+			<key>Key</key>
+			<string>com.gridsearch.company-code</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Additional icons</string>
+			<key>Key</key>
+			<string>com.gridsearch.additional-icons</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Initial Gap</string>
+			<key>Key</key>
+			<string>com.gridsearch.initial-gap</string>
+			<key>DefaultValue</key>
+			<integer>32</integer>
+			<key>Titles</key>
+			<array>
+				<string>16 seconds</string>
+				<string>32 seconds</string>
+				<string>64 seconds</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>16</integer>
+				<integer>32</integer>
+				<integer>64</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Build Information</string>
+			<key>File</key>
+			<string>Build</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
